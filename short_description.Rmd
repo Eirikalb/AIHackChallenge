@@ -1,0 +1,11 @@
+---
+title: "California Socioeconomic Relations"
+author: "Eirik Albrektsen"
+output:
+  html_document: default
+  pdf_document: default
+---
+## Short description
+This dataset is rooted in a 10-question questionnaire that every single American citizen should have answered, issued by the US Census Bureau. These answers have been organized in several ways by the US Census Bureau and is hosted in several formats [here](https://www.census.gov/geo/maps-data/data/tiger-data.html). We are using the 2012-2016 detailed tables - Block Groups- California dataset, which the US Census Bureau only hosts as a geodatabase format. The geodatabase file has information about both the geography and the metadata of all the block groups in a specific state. A block group is a collection of several blocks, which are small areas usually defined by some geographic entity like a road, a river, etc. One block group typically has a population of around 1000 people, however this can vary quite alot. The geographic data was unfortunately ommited when we have exported all the metadata over to csv files.The US census questionaire asks for sex, age, gender, annual income, civil status, education, and employment status and a couple of more questions. The US census bureau has then restructured these answers into anonymous features describing the averages of some answers and the count of people fitting certain characteristic. 
+
+With over 7500 features there are a alot of variables to consider and we want you to identify interresting correlations within the dataset that you think could be valuable to the global community. 
